@@ -50,16 +50,9 @@
   border-bottom: solid #fff;
 }
 
-.imageStyle {
-  display: block !important;
-  height: 30%;
-}
-
 @media (max-width: 768px) {
   .imageStyle {
-    display: block !important;
     padding: 2rem;
-    height: 20%;
   }
 }
 
