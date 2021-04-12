@@ -34,7 +34,19 @@ class App extends Component {
             </Col>
             <Col className="justify-content-md-center align-items-center pt-5 mx-auto" lg={6} md={12} xs={12}>
               <Typed className="type-text font-weight-bold h1" strings={["ZAR NI HEIN"]} typeSpeed={40} backSpeed={60} loop />
-              <h5 className="pt-5">A motivated, adaptable and responsible final year student with a passion for developing creative digital solutions, seeking a position as a web developer which will utilize the knowledge and technical skills gained from my projects. Being a strategic thinker and a good listener applies me to learn and adapt to fit into any environment. With my interpersonal skills, I am willing to communicate with customers until their requirements meet.</h5>
+              <h5 className="pt-5">A motivated, adaptable and responsible final year student with a passion for developing creative digital solutions which will utilize the knowledge and technical skills gained from my projects. Being a strategic thinker and a good listener applies me to learn and adapt to fit into any environment. With my interpersonal skills, I am willing to communicate with customers until their requirements meet.</h5>
+            </Col>
+          </Row>
+          <Row id="Education" className="sectionStyle">
+            <Col md={12} className="justify-content-md-center">
+              <h1>EDUCATION</h1>
+            </Col>
+            <Col md={7} className="justify-content-md-center mx-auto pt-5">
+              <h4 className="pb-2">No.9, Basic Education High School, Mawlamyine</h4>
+            </Col>
+            <Col md={7} className="justify-content-md-center mx-auto pt-5">
+              <h4 className="pb-2">Mechanical Engineering Student</h4>
+              <h5>(Yangon Technological University)</h5>
             </Col>
           </Row>
           <Row id="Work" className="sectionStyle">
