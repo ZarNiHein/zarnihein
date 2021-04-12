@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color: #fff;
+  background-color: #282c34;
+  /* background-image: linear-gradient(to right, #5d5654, #a5a1a0); */
 }
 
 .App-logo {
@@ -35,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.titleStyle {
+  margin-top: 50px !important;
+}
+
+.sectionStyle {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid #fff;
+}
+
+.imageStyle {
+  display: block !important;
+  height: 30%;
+}
+
+@media (max-width: 768px) {
+  .imageStyle {
+    display: block !important;
+    padding: 2rem;
+    height: 20%;
+  }
+}
+
+.cardStyle {
+  background-color: #4c5057 !important;
+  padding: 30px;
+}
+
+.cardTitleStyle {
+  font-weight: bold !important;
 }
