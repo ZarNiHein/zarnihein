@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
 
 export default class PageFooter extends Component {
   render() {
