@@ -48,7 +48,7 @@ class App extends Component {
           </Row>
           <Row id="Work" className="sectionStyle">
             <Col md={12} className="justify-content-md-center">
-              <h1>WORK</h1>
+              <h1>WORK EXPERIENCE</h1>
             </Col>
             <Col md={7} className="justify-content-md-center mx-auto pt-5">
               <h4 className="pb-2">Freelance Web Developer at BEAKBOOK LIMITED, UK</h4>
