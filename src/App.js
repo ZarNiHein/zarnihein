@@ -52,7 +52,8 @@ class App extends Component {
               <Image className="imageStyle" src={Profile} roundedCircle fluid />
             </Col>
             <Col className="justify-content-md-center align-items-center pt-5 mx-auto" lg={6} md={12} xs={12}>
-              <Typed className="type-text font-weight-bold h1" strings={["ZAR NI HEIN"]} typeSpeed={40} backSpeed={60} loop />
+              <h1 className="font-weight-bold"> ZAR NI HEIN</h1>
+              {/* <Typed className="type-text font-weight-bold h1" strings={["ZAR NI HEIN"]} typeSpeed={40} backSpeed={60} loop /> */}
               <h5 className="pt-5">A motivated, adaptable and responsible final year student with a passion for developing creative digital solutions,seeking a position as a web developer which will utilize the knowledge and technical skills gained from my projects. Being a strategic thinker and a good listener applies me to learn and adapt to fit into any environment. With my interpersonal skills, I am willing to communicate with customers until their requirements meet.</h5>
             </Col>
           </Row>
