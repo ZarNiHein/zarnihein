@@ -19,6 +19,7 @@ import PageFooter from "./Components/PageFooter";
 import { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import Particles from 'react-particles-js';
 
 
 class App extends Component {
@@ -26,6 +27,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Particles params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900
+              }
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#f9ab00"
+              }
+            }
+          },
+        }} />
         <HomeNavbar />
         <Container className="titleStyle pt-5">
           <Row className="sectionStyle">
