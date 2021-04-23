@@ -1,5 +1,5 @@
 import './App.css';
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import HomeNavbar from './Components/HomeNav';
 import { Card, Col, Container, Image, Row, Carousel, Nav } from 'react-bootstrap';
 import Profile from "./Images/ZARNIHEIN.jpg";
