@@ -168,17 +168,15 @@ class App extends Component {
                         <div>E-COMMERCE APP</div>
                       </Card.Title>
                       <Card.Text className="m-0">
-                        <small>
-                          Easy, Fast and Reliable e-commerce app in Myanmar
-                          developed by ZAR NI HEIN (ZACK). Authorization and
-                          Authentication feature is managed using AWS Cognito.
-                        </small>
+                        Easy, Fast and Reliable e-commerce app in Myanmar
+                        developed by ZAR NI HEIN (ZACK). Authorization and
+                        Authentication feature is managed using AWS Cognito.
                       </Card.Text>
                       <Card.Link
                         target="blank"
                         href="https://master.d3eqy6ypj7w6s7.amplifyapp.com"
                       >
-                        <small>Explore</small>
+                        Explore
                       </Card.Link>
                     </Card.Body>
                   </Col>
@@ -194,17 +192,15 @@ class App extends Component {
                         AIR PIO COVID-19 DASHBOARD APP
                       </Card.Title>
                       <Card.Text className="m-0">
-                        <small>
-                          AIR-PIO aim to solve the air pollution problem around
-                          Yangon. By Visualization, we describe "Air Pollution"
-                          information before and during COVID-19.
-                        </small>
+                        AIR-PIO aim to solve the air pollution problem around
+                        Yangon. By Visualization, we describe "Air Pollution"
+                        information before and during COVID-19.
                       </Card.Text>
                       <Card.Link
                         target="blank"
                         href="https://air-pio.netlify.app"
                       >
-                        <small>Explore</small>
+                        Explore
                       </Card.Link>
                     </Card.Body>
                   </Col>
@@ -291,18 +287,16 @@ class App extends Component {
                         BEAKBOOK WEB APP
                       </Card.Title>
                       <Card.Text className="m-0">
-                        <small>
-                          Beakbook Limited is an Imperial College London
-                          spin-out focusing on poultry tech. We are developing
-                          data analytic tools and robust hardware to lower feed
-                          bills and support animal welfare.
-                        </small>
+                        Beakbook Limited is an Imperial College London spin-out
+                        focusing on poultry tech. We are developing data
+                        analytic tools and robust hardware to lower feed bills
+                        and support animal welfare.
                       </Card.Text>
                       <Card.Link
                         target="blank"
                         href="https://dev.dabp7j8blglx3.amplifyapp.com"
                       >
-                        <small>Explore</small>
+                        Explore
                       </Card.Link>
                     </Card.Body>
                   </Col>
