@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import NavComponent from "../SmallComponents/NavComponent";
+import logo from "../logo.png";
 
 export default class HomeNavbar extends Component {
   render() {
@@ -13,7 +14,15 @@ export default class HomeNavbar extends Component {
         bg="dark"
         variant="dark"
       >
-        <Navbar.Brand href="/">ZAR NI HEIN</Navbar.Brand>
+        <Navbar.Brand href="/" className="px-3">
+          <img
+            alt=""
+            src={logo}
+            width="40"
+            height="40"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

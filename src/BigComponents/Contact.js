@@ -14,7 +14,7 @@ export default class Contact extends Component {
         <Col md={12} className="justify-content-md-center">
           <h1>CONTACT</h1>
         </Col>
-        <Col md={12} className="d-flex justify-content-md-center pt-5">
+        <Col md={12} className="d-flex justify-content-md-center pt-4">
           <Nav className="mx-auto">
             <Nav.Link
               target="blank"

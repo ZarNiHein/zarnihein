@@ -16,7 +16,7 @@ export default class ProjectComponent extends Component {
     } = this.props;
 
     return (
-      <Col md={12} className="justify-content-md-center pt-5">
+      <Col md={12} className="justify-content-md-center pt-4">
         <Card className="cardStyle">
           <Row>
             <Col className="my-auto" xl={4} lg={5} md={12}>

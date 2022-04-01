@@ -15,13 +15,13 @@ export default class Intro extends Component {
           <Image className="imageStyle" src={Profile} roundedCircle fluid />
         </Col>
         <Col
-          className="justify-content-md-center align-items-center pt-5 mx-auto"
+          className="justify-content-md-center align-items-center pt-4 mx-auto"
           lg={6}
           md={12}
           xs={12}
         >
           <h1 className="font-weight-bold"> ZAR NI HEIN</h1>
-          <h5 className="pt-5">
+          <h5 className="pt-4">
             A motivated, adaptive, and responsible developer with a strong
             desire to create websites using the knowledge and technical
             abilities learned from previous projects and jobs. I am willing to

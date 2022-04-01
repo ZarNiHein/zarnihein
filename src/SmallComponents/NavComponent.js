@@ -12,8 +12,8 @@ export default class NavComponent extends Component {
         onClick={() => {
           document.getElementById(id).scrollIntoView({
             behavior: "smooth",
-            block: block === null ? "center" : block,
-            inline: inline === null ? "center" : inline,
+            block: !block ? "center" : block,
+            inline: !inline ? "center" : inline,
           });
         }}
       >
